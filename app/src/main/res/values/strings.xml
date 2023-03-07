@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Elite Borealis</string>
+    <string name="cannot_open_file_chooser_txt">Can not open file chooser</string>
+    <string name="camera_permission_granted_txt">Permission granted</string>
+    <string name="camera_permission_denied_txt">Permission denied</string>
+    <string name="facebook_app_id">895935788277664</string>
+    <string name="fb_login_protocol_scheme">fb895935788277664</string>
+    <string name="facebook_client_token">20d5ddc24c2c8f4e38d67db04885e1a4</string>
+
+</resources>

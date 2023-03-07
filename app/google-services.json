@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "829030507046",
+    "project_id": "elite-borealis",
+    "storage_bucket": "elite-borealis.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829030507046:android:c810aa2e0a695799ee3ce7",
+        "android_client_info": {
+          "package_name": "com.kooapps.stackybirdan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829030507046-ubceaoe4pgman2e76rpvg7v0d7ppl5di.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtaICqFM1WT9Crp3i0UkE0HobsGwYWTiA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829030507046-ubceaoe4pgman2e76rpvg7v0d7ppl5di.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

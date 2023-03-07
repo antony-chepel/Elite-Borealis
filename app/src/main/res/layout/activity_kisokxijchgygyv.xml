@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/el_b_bg"
+    tools:context=".gbvd.uwiwi.Kisokxijchgygyv">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/el_b_bld"
+        android:text="Find a real elite artifacts"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:fontFamily="@font/el_b_bld"
+        android:textColor="@color/white"
+        android:text="Hurry up! You have not a lot of time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/eokowe"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/el_b_it_1" />
+
+    <ImageView
+        android:id="@+id/kkcxijvijjihuhdufg"
+        android:layout_width="150dp"
+        android:scaleType="centerCrop"
+        android:layout_height="150dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/eokowe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/eokowe"
+        app:srcCompat="@drawable/el_b_it_2" />
+
+    <ImageView
+        android:id="@+id/llcoxookovjivhuchu"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="@+id/eokowe"
+        app:layout_constraintStart_toStartOf="@+id/eokowe"
+        app:layout_constraintTop_toBottomOf="@+id/eokowe"
+        app:srcCompat="@drawable/el_b_it_3" />
+
+    <ImageView
+        android:id="@+id/spwplqlplplpslpokxcjzji"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/llcoxookovjivhuchu"
+        app:layout_constraintEnd_toEndOf="@+id/kkcxijvijjihuhdufg"
+        app:layout_constraintTop_toTopOf="@+id/llcoxookovjivhuchu"
+        app:srcCompat="@drawable/el_b_it_4" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/el_b_bld"
+        android:textColor="@color/white"
+        android:text="Choose and havce chance get elite scores"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/llcoxookovjivhuchu" />
+
+    <TextView
+        android:id="@+id/xkzioxcjizijsjiajiaduh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:textSize="25sp"
+        android:layout_marginBottom="50dp"
+        android:text="Time : 10 sec"
+        android:fontFamily="@font/el_b_bld"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/forkoeko"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/prm_el_b"
+        android:fontFamily="@font/el_b_bld"
+        android:text="Get Results"
+        android:alpha="0.8"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/xkzioxcjizijsjiajiaduh"
+        app:layout_constraintEnd_toStartOf="@+id/xkzioxcjizijsjiajiaduh"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/xkzioxcjizijsjiajiaduh"
+        app:layout_constraintVertical_bias="0.52" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

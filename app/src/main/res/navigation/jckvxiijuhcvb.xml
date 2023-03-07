@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/xozociudhushufe">
+
+    <fragment
+        android:id="@+id/xozociudhushufe"
+        android:name="com.kooapps.stackybirdan.fsps.Dsowkkosxzcs"
+        android:label="xtzrcuhhuzxas"
+        tools:layout="@layout/eowkqkosadxc" >
+        <action
+            android:id="@+id/gkkiibjvjicvxcd"
+            app:destination="@id/icuxhyggydsf" />
+    </fragment>
+    <fragment
+        android:id="@+id/froeowoewisd"
+        android:name="com.kooapps.stackybirdan.gbvd.Xoosakiwhdhusad"
+        android:label="mkvckijcuhhudsfe"
+        tools:layout="@layout/vcixijvhuhsdf" >
+        <action
+            android:id="@+id/gotkokkoekowjijidf"
+            app:destination="@id/dooeowijwhusahudx" />
+    </fragment>
+    <fragment
+        android:id="@+id/peowowkjisda"
+        android:name="com.kooapps.stackybirdan.fsps.skdiwjhu.Gwooqwisd"
+        android:label="vhcubijjiduhfgr"
+        tools:layout="@layout/hdopfkocxv" />
+    <fragment
+        android:id="@+id/dooeowijwhusahudx"
+        android:name="com.kooapps.stackybirdan.gbvd.uwiwi.Miwwiwuysgdxc"
+        android:label="jkbivjuhhucvds"
+        tools:layout="@layout/usiwwwwsad" >
+        <action
+            android:id="@+id/nmcxicxvysdgyfe"
+            app:destination="@id/peowowkjisda" />
+    </fragment>
+    <fragment
+        android:id="@+id/icuxhyggydsf"
+            android:name="com.kooapps.stackybirdan.fsps.Jisioaodwa"
+        android:label="wppqplqwsd">
+        <action
+            android:id="@+id/icxugyvgyygsdf"
+            app:destination="@id/froeowoewisd" />
+    </fragment>
+</navigation>
